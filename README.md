@@ -133,17 +133,6 @@ terrain → realms → settlements → disasters → dynasties → pantheon
 
 Each stage reads the previous stage's output and adds new data.
 
-## Testing
-
-```bash
-python run_tests.py
-```
-
-Runs comprehensive integration tests validating:
-- Schema compatibility between stages
-- Seed propagation and determinism
-- Data consistency
-- No crashes in pipeline
 
 ## Data Files
 
