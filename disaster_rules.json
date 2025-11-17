@@ -1,0 +1,58 @@
+{
+  "disaster_types": [
+    "plague",
+    "famine",
+    "earthquake",
+    "flood",
+    "storm",
+    "wildfire",
+    "arcane_catastrophe"
+  ],
+  "biome_suitability": {
+    "wildfire": {
+      "suitable": ["temperate_forest", "grassland", "desert", "highland"],
+      "unsuitable": ["ocean", "deep_ocean", "beach", "wetlands"],
+      "note": "Wildfires need dry vegetation or grasslands"
+    },
+    "flood": {
+      "suitable": ["grassland", "temperate_forest", "wetlands", "beach"],
+      "unsuitable": ["highland", "mountain", "desert"],
+      "elevation_max": 0.5,
+      "requires_water_neighbor": true,
+      "note": "Floods occur in lowlands near water"
+    },
+    "plague": {
+      "suitable": ["all"],
+      "unsuitable": [],
+      "note": "Plague spreads along trade routes, any biome"
+    },
+    "famine": {
+      "suitable": ["grassland", "temperate_forest", "wetlands", "desert"],
+      "unsuitable": ["ocean", "deep_ocean", "mountain"],
+      "note": "Famine affects farmland and populated areas"
+    },
+    "earthquake": {
+      "suitable": ["all"],
+      "unsuitable": ["ocean", "deep_ocean"],
+      "note": "Earthquakes occur on land, especially mountains"
+    },
+    "storm": {
+      "suitable": ["all"],
+      "unsuitable": [],
+      "prefer_coastal": true,
+      "note": "Storms ravage any region, worse near coasts"
+    },
+    "arcane_catastrophe": {
+      "suitable": ["all"],
+      "unsuitable": [],
+      "note": "Magical disasters can occur anywhere"
+    }
+  },
+  "severity_effects": {
+    "1": "Minor disruption, local damage",
+    "2": "Moderate damage, regional impact",
+    "3": "Severe damage, widespread suffering",
+    "4": "Catastrophic damage, long-term consequences",
+    "5": "Apocalyptic destruction, reshapes the land"
+  }
+}

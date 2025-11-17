@@ -1,0 +1,37 @@
+{
+  "human": {
+    "min_reign": 20,
+    "max_reign": 50,
+    "note": "Human rulers average 35 years on throne"
+  },
+  "elf": {
+    "min_reign": 80,
+    "max_reign": 200,
+    "note": "Elven monarchs rule for centuries"
+  },
+  "dwarf": {
+    "min_reign": 50,
+    "max_reign": 150,
+    "note": "Dwarven kings reign for generations"
+  },
+  "orc": {
+    "min_reign": 15,
+    "max_reign": 40,
+    "note": "Orcish warlords rule through strength; turnover is high"
+  },
+  "halfling": {
+    "min_reign": 30,
+    "max_reign": 60,
+    "note": "Halfling leaders serve modest terms"
+  },
+  "dragonborn": {
+    "min_reign": 40,
+    "max_reign": 100,
+    "note": "Dragonborn dynasties span decades"
+  },
+  "default": {
+    "min_reign": 20,
+    "max_reign": 50,
+    "note": "Fallback for unknown races"
+  }
+}
